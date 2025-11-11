@@ -163,7 +163,29 @@ footer {
   padding: 6px 10px;
   border-radius: 999px;
   font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.participant-email {
   display: inline-block;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #b00020;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 6px;
+  line-height: 1;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: rgba(176, 0, 32, 0.08);
 }
 
 .no-participants {
